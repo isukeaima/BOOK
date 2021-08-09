@@ -86,3 +86,17 @@ label {
 input[type="text" i] {
     padding: 1px 2px;
 }
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}

@@ -1,7 +1,7 @@
-
+<% if flash[:notice] %>
+  <p><%= flash[:notice] %></p>
+<% end %>
 <body>
-    <p id="notice">Book was successfully updated.</p>
-    <p>
     <strong>Title:</strong>
 <%= @book.title %>
 </p>
